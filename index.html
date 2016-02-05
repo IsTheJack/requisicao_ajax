@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo de Requisição Ajax</title>
+</head>
+<body>
+    <center><h1>Exemplo de requisição AJAX usando JQUERY</h1></center>
+
+    <center>
+        <form  accept-charset="utf-8">
+            <label>Insira o CEP (Somente Números) <br><input class="txtCEP" type="text" name="cep"></label>
+        </form>
+        <button class="btnSearch">Consultar</button>
+    </center>
+
+    <center><img class="img-loading" src="img/load.gif" height="80" style="display: none;"></center>
+
+    <section class="result" style="display: none;">
+        <table>
+            <thead>
+                <tr><h2>Resultado da Requisição Ajax</h2></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cidade:</td>
+                    <td class="cidade"></td>
+                </tr>
+                <tr>
+                    <td>Bairro:</td>
+                    <td class="uf"></td>
+                </tr>
+                <tr>
+                    <td>Cidade:</td>
+                    <td class="bairro"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section
+
+    <!-- Coloque a maioria dos JS no final do código pra n bloquear o carregamento atoa -->
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
