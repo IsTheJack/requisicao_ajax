@@ -1,5 +1,5 @@
-"strict";
-(
+(function($, jQuery) {
+    "strict";
     // Ao carregar e renderizar todos os elementos da página, fazer:
     $(window).load(function() {
         // Adicionando evento de clique no botão e inserindo a lógica
@@ -30,4 +30,4 @@
             });
         });
     })
-)($, jQuery);
+})($, jQuery);
